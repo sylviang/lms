@@ -12,11 +12,16 @@ export default defineNuxtConfig({
     }
   },
   modules: [
-    '@unocss/nuxt',
-    '@pinia/nuxt',
-    'unplugin-icons/nuxt',
-    '@vueuse/nuxt'
+   '@unocss/nuxt',
+   '@pinia/nuxt',
+   'unplugin-icons/nuxt',
+   '@vueuse/nuxt',
+   //'nuxt-directus',
+   '@nuxt/image'
   ],
+  //directus: { 
+  //  url: "https://cms.headless.optical.coffee/" 
+ //},
   vite: {
     plugins: [
       ViteComponents({
